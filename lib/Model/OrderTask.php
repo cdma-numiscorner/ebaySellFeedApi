@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * OrderTask Class Doc Comment
  *
  * @category Class
  * @description The type that defines the fields for the &lt;b&gt; getOrderTask&lt;/b&gt; response.
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -62,11 +62,11 @@ class OrderTask implements ModelInterface, ArrayAccess, \JsonSerializable
         'creation_date' => 'string',
         'detail_href' => 'string',
         'feed_type' => 'string',
-        'filter_criteria' => '\OpenAPI\Client\Model\OrderFilterCriteria',
+        'filter_criteria' => '\OpenAPI\EbaySellFeedApi\Model\OrderFilterCriteria',
         'schema_version' => 'string',
         'status' => 'string',
         'task_id' => 'string',
-        'upload_summary' => '\OpenAPI\Client\Model\UploadSummary'
+        'upload_summary' => '\OpenAPI\EbaySellFeedApi\Model\UploadSummary'
     ];
 
     /**
@@ -351,7 +351,7 @@ class OrderTask implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets filter_criteria
      *
-     * @return \OpenAPI\Client\Model\OrderFilterCriteria|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\OrderFilterCriteria|null
      */
     public function getFilterCriteria()
     {
@@ -361,7 +361,7 @@ class OrderTask implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets filter_criteria
      *
-     * @param \OpenAPI\Client\Model\OrderFilterCriteria|null $filter_criteria filter_criteria
+     * @param \OpenAPI\EbaySellFeedApi\Model\OrderFilterCriteria|null $filter_criteria filter_criteria
      *
      * @return self
      */
@@ -447,7 +447,7 @@ class OrderTask implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets upload_summary
      *
-     * @return \OpenAPI\Client\Model\UploadSummary|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\UploadSummary|null
      */
     public function getUploadSummary()
     {
@@ -457,7 +457,7 @@ class OrderTask implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets upload_summary
      *
-     * @param \OpenAPI\Client\Model\UploadSummary|null $upload_summary upload_summary
+     * @param \OpenAPI\EbaySellFeedApi\Model\UploadSummary|null $upload_summary upload_summary
      *
      * @return self
      */

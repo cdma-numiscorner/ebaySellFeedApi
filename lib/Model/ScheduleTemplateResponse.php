@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * ScheduleTemplateResponse Class Doc Comment
  *
  * @category Class
  * @description The type that defines the fields for a paginated result set of available schedule templates. The response consists of 0 or more sequenced &lt;em&gt; pages&lt;/em&gt; where each page has 0 or more items.
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -63,7 +63,7 @@ class ScheduleTemplateResponse implements ModelInterface, ArrayAccess, \JsonSeri
         'name' => 'string',
         'schedule_template_id' => 'string',
         'status' => 'string',
-        'supported_configurations' => '\OpenAPI\Client\Model\SupportedConfiguration[]'
+        'supported_configurations' => '\OpenAPI\EbaySellFeedApi\Model\SupportedConfiguration[]'
     ];
 
     /**
@@ -357,7 +357,7 @@ class ScheduleTemplateResponse implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets supported_configurations
      *
-     * @return \OpenAPI\Client\Model\SupportedConfiguration[]|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\SupportedConfiguration[]|null
      */
     public function getSupportedConfigurations()
     {
@@ -367,7 +367,7 @@ class ScheduleTemplateResponse implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets supported_configurations
      *
-     * @param \OpenAPI\Client\Model\SupportedConfiguration[]|null $supported_configurations An array of the configuration supported by this template.
+     * @param \OpenAPI\EbaySellFeedApi\Model\SupportedConfiguration[]|null $supported_configurations An array of the configuration supported by this template.
      *
      * @return self
      */

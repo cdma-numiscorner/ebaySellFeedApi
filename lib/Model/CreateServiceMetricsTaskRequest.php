@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * CreateServiceMetricsTaskRequest Class Doc Comment
  *
  * @category Class
  * @description The type that defines the fields for the Customer Service Metric reports generated with the Feed API.
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -59,7 +59,7 @@ class CreateServiceMetricsTaskRequest implements ModelInterface, ArrayAccess, \J
       */
     protected static $openAPITypes = [
         'feed_type' => 'string',
-        'filter_criteria' => '\OpenAPI\Client\Model\CustomerServiceMetricsFilterCriteria',
+        'filter_criteria' => '\OpenAPI\EbaySellFeedApi\Model\CustomerServiceMetricsFilterCriteria',
         'schema_version' => 'string'
     ];
 
@@ -243,7 +243,7 @@ class CreateServiceMetricsTaskRequest implements ModelInterface, ArrayAccess, \J
     /**
      * Gets filter_criteria
      *
-     * @return \OpenAPI\Client\Model\CustomerServiceMetricsFilterCriteria|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\CustomerServiceMetricsFilterCriteria|null
      */
     public function getFilterCriteria()
     {
@@ -253,7 +253,7 @@ class CreateServiceMetricsTaskRequest implements ModelInterface, ArrayAccess, \J
     /**
      * Sets filter_criteria
      *
-     * @param \OpenAPI\Client\Model\CustomerServiceMetricsFilterCriteria|null $filter_criteria filter_criteria
+     * @param \OpenAPI\EbaySellFeedApi\Model\CustomerServiceMetricsFilterCriteria|null $filter_criteria filter_criteria
      *
      * @return self
      */

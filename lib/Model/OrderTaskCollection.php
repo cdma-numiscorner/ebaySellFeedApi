@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * OrderTaskCollection Class Doc Comment
  *
  * @category Class
  * @description The type that defines the fields for a paginated result set of orders. The response consists of 0 or more sequenced &lt;em&gt; pages&lt;/em&gt; where each page has 0 or more items.
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -63,7 +63,7 @@ class OrderTaskCollection implements ModelInterface, ArrayAccess, \JsonSerializa
         'next' => 'string',
         'offset' => 'int',
         'prev' => 'string',
-        'tasks' => '\OpenAPI\Client\Model\OrderTask[]',
+        'tasks' => '\OpenAPI\EbaySellFeedApi\Model\OrderTask[]',
         'total' => 'int'
     ];
 
@@ -363,7 +363,7 @@ class OrderTaskCollection implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets tasks
      *
-     * @return \OpenAPI\Client\Model\OrderTask[]|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\OrderTask[]|null
      */
     public function getTasks()
     {
@@ -373,7 +373,7 @@ class OrderTaskCollection implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets tasks
      *
-     * @param \OpenAPI\Client\Model\OrderTask[]|null $tasks An array of the order tasks on this page. The tasks are sorted by creation date. An empty array is returned if the filter criteria excludes all tasks.
+     * @param \OpenAPI\EbaySellFeedApi\Model\OrderTask[]|null $tasks An array of the order tasks on this page. The tasks are sorted by creation date. An empty array is returned if the filter criteria excludes all tasks.
      *
      * @return self
      */

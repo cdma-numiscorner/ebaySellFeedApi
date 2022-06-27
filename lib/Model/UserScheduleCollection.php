@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * UserScheduleCollection Class Doc Comment
  *
  * @category Class
  * @description The type that defines the fields for a paginated result set of user schedules. The response consists of 0 or more sequenced &lt;em&gt; pages&lt;/em&gt; where each page has 0 or more items.
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -63,7 +63,7 @@ class UserScheduleCollection implements ModelInterface, ArrayAccess, \JsonSerial
         'next' => 'string',
         'offset' => 'int',
         'prev' => 'string',
-        'schedules' => '\OpenAPI\Client\Model\UserScheduleResponse[]',
+        'schedules' => '\OpenAPI\EbaySellFeedApi\Model\UserScheduleResponse[]',
         'total' => 'int'
     ];
 
@@ -363,7 +363,7 @@ class UserScheduleCollection implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets schedules
      *
-     * @return \OpenAPI\Client\Model\UserScheduleResponse[]|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\UserScheduleResponse[]|null
      */
     public function getSchedules()
     {
@@ -373,7 +373,7 @@ class UserScheduleCollection implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets schedules
      *
-     * @param \OpenAPI\Client\Model\UserScheduleResponse[]|null $schedules An array of the schedules on this page. An empty array is returned if the filter criteria excludes all tasks.
+     * @param \OpenAPI\EbaySellFeedApi\Model\UserScheduleResponse[]|null $schedules An array of the schedules on this page. An empty array is returned if the filter criteria excludes all tasks.
      *
      * @return self
      */

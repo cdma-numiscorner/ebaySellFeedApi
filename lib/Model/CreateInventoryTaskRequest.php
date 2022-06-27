@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * CreateInventoryTaskRequest Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -59,7 +59,7 @@ class CreateInventoryTaskRequest implements ModelInterface, ArrayAccess, \JsonSe
     protected static $openAPITypes = [
         'schema_version' => 'string',
         'feed_type' => 'string',
-        'filter_criteria' => '\OpenAPI\Client\Model\InventoryFilterCriteria',
+        'filter_criteria' => '\OpenAPI\EbaySellFeedApi\Model\InventoryFilterCriteria',
         'inventory_file_template' => 'string'
     ];
 
@@ -272,7 +272,7 @@ class CreateInventoryTaskRequest implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets filter_criteria
      *
-     * @return \OpenAPI\Client\Model\InventoryFilterCriteria|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\InventoryFilterCriteria|null
      */
     public function getFilterCriteria()
     {
@@ -282,7 +282,7 @@ class CreateInventoryTaskRequest implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets filter_criteria
      *
-     * @param \OpenAPI\Client\Model\InventoryFilterCriteria|null $filter_criteria filter_criteria
+     * @param \OpenAPI\EbaySellFeedApi\Model\InventoryFilterCriteria|null $filter_criteria filter_criteria
      *
      * @return self
      */
