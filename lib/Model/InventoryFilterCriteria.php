@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * InventoryFilterCriteria Class Doc Comment
  *
  * @category Class
  * @description The container for the filter fields. This container is used to set the filter criteria for the order report. A seller can set date range filters and/or can retrieve orders in a specific state.
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -58,8 +58,8 @@ class InventoryFilterCriteria implements ModelInterface, ArrayAccess, \JsonSeria
       * @var string[]
       */
     protected static $openAPITypes = [
-        'creation_date_range' => '\OpenAPI\Client\Model\DateRange',
-        'modified_date_range' => '\OpenAPI\Client\Model\DateRange',
+        'creation_date_range' => '\OpenAPI\EbaySellFeedApi\Model\DateRange',
+        'modified_date_range' => '\OpenAPI\EbaySellFeedApi\Model\DateRange',
         'listing_format' => 'string',
         'listing_status' => 'string'
     ];
@@ -225,7 +225,7 @@ class InventoryFilterCriteria implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets creation_date_range
      *
-     * @return \OpenAPI\Client\Model\DateRange|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\DateRange|null
      */
     public function getCreationDateRange()
     {
@@ -235,7 +235,7 @@ class InventoryFilterCriteria implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets creation_date_range
      *
-     * @param \OpenAPI\Client\Model\DateRange|null $creation_date_range creation_date_range
+     * @param \OpenAPI\EbaySellFeedApi\Model\DateRange|null $creation_date_range creation_date_range
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class InventoryFilterCriteria implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets modified_date_range
      *
-     * @return \OpenAPI\Client\Model\DateRange|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\DateRange|null
      */
     public function getModifiedDateRange()
     {
@@ -259,7 +259,7 @@ class InventoryFilterCriteria implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets modified_date_range
      *
-     * @param \OpenAPI\Client\Model\DateRange|null $modified_date_range modified_date_range
+     * @param \OpenAPI\EbaySellFeedApi\Model\DateRange|null $modified_date_range modified_date_range
      *
      * @return self
      */

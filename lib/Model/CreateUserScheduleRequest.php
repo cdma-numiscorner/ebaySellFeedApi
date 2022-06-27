@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * CreateUserScheduleRequest Class Doc Comment
  *
  * @category Class
  * @description The type that defines the fields for the &lt;strong&gt;createSchedule&lt;/strong&gt; method.
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>

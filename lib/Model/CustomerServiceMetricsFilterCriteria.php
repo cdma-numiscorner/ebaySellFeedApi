@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * CustomerServiceMetricsFilterCriteria Class Doc Comment
  *
  * @category Class
  * @description A complex data type that filters data for report creation. See &lt;strong&gt;CustomerServiceMetricsFilterCriteria&lt;/strong&gt; for fields and descriptions.
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>

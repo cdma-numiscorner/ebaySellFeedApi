@@ -50,17 +50,17 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: api_auth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = OpenAPI\EbaySellFeedApi\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CustomerServiceMetricTaskApi(
+$apiInstance = new OpenAPI\EbaySellFeedApi\Api\CustomerServiceMetricTaskApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $accept_language = 'accept_language_example'; // string | Use this header to specify the natural language in which the authenticated user desires the response.
-$create_service_metrics_task_request = new \OpenAPI\Client\Model\CreateServiceMetricsTaskRequest(); // \OpenAPI\Client\Model\CreateServiceMetricsTaskRequest | Request payload containing version, feedType, and optional filterCriteria.
+$create_service_metrics_task_request = new \OpenAPI\EbaySellFeedApi\Model\CreateServiceMetricsTaskRequest(); // \OpenAPI\EbaySellFeedApi\Model\CreateServiceMetricsTaskRequest | Request payload containing version, feedType, and optional filterCriteria.
 
 try {
     $apiInstance->createCustomerServiceMetricTask($accept_language, $create_service_metrics_task_request);

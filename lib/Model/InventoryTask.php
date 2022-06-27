@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace OpenAPI\EbaySellFeedApi\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * InventoryTask Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -64,8 +64,8 @@ class InventoryTask implements ModelInterface, ArrayAccess, \JsonSerializable
         'completion_date' => 'string',
         'schema_version' => 'string',
         'detail_href' => 'string',
-        'upload_summary' => '\OpenAPI\Client\Model\UploadSummary',
-        'filter_criteria' => '\OpenAPI\Client\Model\InventoryFilterCriteria',
+        'upload_summary' => '\OpenAPI\EbaySellFeedApi\Model\UploadSummary',
+        'filter_criteria' => '\OpenAPI\EbaySellFeedApi\Model\InventoryFilterCriteria',
         'inventory_file_template' => 'string'
     ];
 
@@ -428,7 +428,7 @@ class InventoryTask implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets upload_summary
      *
-     * @return \OpenAPI\Client\Model\UploadSummary|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\UploadSummary|null
      */
     public function getUploadSummary()
     {
@@ -438,7 +438,7 @@ class InventoryTask implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets upload_summary
      *
-     * @param \OpenAPI\Client\Model\UploadSummary|null $upload_summary upload_summary
+     * @param \OpenAPI\EbaySellFeedApi\Model\UploadSummary|null $upload_summary upload_summary
      *
      * @return self
      */
@@ -452,7 +452,7 @@ class InventoryTask implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets filter_criteria
      *
-     * @return \OpenAPI\Client\Model\InventoryFilterCriteria|null
+     * @return \OpenAPI\EbaySellFeedApi\Model\InventoryFilterCriteria|null
      */
     public function getFilterCriteria()
     {
@@ -462,7 +462,7 @@ class InventoryTask implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets filter_criteria
      *
-     * @param \OpenAPI\Client\Model\InventoryFilterCriteria|null $filter_criteria filter_criteria
+     * @param \OpenAPI\EbaySellFeedApi\Model\InventoryFilterCriteria|null $filter_criteria filter_criteria
      *
      * @return self
      */

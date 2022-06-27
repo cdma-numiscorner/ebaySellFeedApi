@@ -4,7 +4,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace OpenAPI\EbaySellFeedApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use OpenAPI\EbaySellFeedApi\ApiException;
+use OpenAPI\EbaySellFeedApi\Configuration;
+use OpenAPI\EbaySellFeedApi\HeaderSelector;
+use OpenAPI\EbaySellFeedApi\ObjectSerializer;
 
 /**
  * OrderTaskApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  OpenAPI\EbaySellFeedApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,10 +118,10 @@ class OrderTaskApi
     /**
      * Operation createOrderTask
      *
-     * @param  \OpenAPI\Client\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
+     * @param  \OpenAPI\EbaySellFeedApi\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
      * @param  string $x_ebay_c_marketplace_id The ID of the eBay marketplace where the item is hosted. &lt;p&gt; &lt;span class&#x3D;\&quot;tablenote\&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; This value is case sensitive.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;For example:&lt;/p&gt;&lt;p&gt;&lt;code&gt;X-EBAY-C-MARKETPLACE-ID:EBAY_US&lt;/code&gt;&lt;/p&gt;&lt;p&gt;This identifies the eBay marketplace that applies to this task. See &lt;a href&#x3D;\&quot;/api-docs/sell/feed/types/bas:MarketplaceIdEnum\&quot;&gt;MarketplaceIdEnum&lt;/a&gt;.&lt;/p&gt; (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \OpenAPI\EbaySellFeedApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -133,10 +133,10 @@ class OrderTaskApi
     /**
      * Operation createOrderTaskWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
+     * @param  \OpenAPI\EbaySellFeedApi\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
      * @param  string $x_ebay_c_marketplace_id The ID of the eBay marketplace where the item is hosted. &lt;p&gt; &lt;span class&#x3D;\&quot;tablenote\&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; This value is case sensitive.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;For example:&lt;/p&gt;&lt;p&gt;&lt;code&gt;X-EBAY-C-MARKETPLACE-ID:EBAY_US&lt;/code&gt;&lt;/p&gt;&lt;p&gt;This identifies the eBay marketplace that applies to this task. See &lt;a href&#x3D;\&quot;/api-docs/sell/feed/types/bas:MarketplaceIdEnum\&quot;&gt;MarketplaceIdEnum&lt;/a&gt;.&lt;/p&gt; (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \OpenAPI\EbaySellFeedApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -191,7 +191,7 @@ class OrderTaskApi
     /**
      * Operation createOrderTaskAsync
      *
-     * @param  \OpenAPI\Client\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
+     * @param  \OpenAPI\EbaySellFeedApi\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
      * @param  string $x_ebay_c_marketplace_id The ID of the eBay marketplace where the item is hosted. &lt;p&gt; &lt;span class&#x3D;\&quot;tablenote\&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; This value is case sensitive.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;For example:&lt;/p&gt;&lt;p&gt;&lt;code&gt;X-EBAY-C-MARKETPLACE-ID:EBAY_US&lt;/code&gt;&lt;/p&gt;&lt;p&gt;This identifies the eBay marketplace that applies to this task. See &lt;a href&#x3D;\&quot;/api-docs/sell/feed/types/bas:MarketplaceIdEnum\&quot;&gt;MarketplaceIdEnum&lt;/a&gt;.&lt;/p&gt; (optional)
      *
      * @throws \InvalidArgumentException
@@ -210,7 +210,7 @@ class OrderTaskApi
     /**
      * Operation createOrderTaskAsyncWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
+     * @param  \OpenAPI\EbaySellFeedApi\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
      * @param  string $x_ebay_c_marketplace_id The ID of the eBay marketplace where the item is hosted. &lt;p&gt; &lt;span class&#x3D;\&quot;tablenote\&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; This value is case sensitive.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;For example:&lt;/p&gt;&lt;p&gt;&lt;code&gt;X-EBAY-C-MARKETPLACE-ID:EBAY_US&lt;/code&gt;&lt;/p&gt;&lt;p&gt;This identifies the eBay marketplace that applies to this task. See &lt;a href&#x3D;\&quot;/api-docs/sell/feed/types/bas:MarketplaceIdEnum\&quot;&gt;MarketplaceIdEnum&lt;/a&gt;.&lt;/p&gt; (optional)
      *
      * @throws \InvalidArgumentException
@@ -247,7 +247,7 @@ class OrderTaskApi
     /**
      * Create request for operation 'createOrderTask'
      *
-     * @param  \OpenAPI\Client\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
+     * @param  \OpenAPI\EbaySellFeedApi\Model\CreateOrderTaskRequest $create_order_task_request description not needed (required)
      * @param  string $x_ebay_c_marketplace_id The ID of the eBay marketplace where the item is hosted. &lt;p&gt; &lt;span class&#x3D;\&quot;tablenote\&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; This value is case sensitive.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;For example:&lt;/p&gt;&lt;p&gt;&lt;code&gt;X-EBAY-C-MARKETPLACE-ID:EBAY_US&lt;/code&gt;&lt;/p&gt;&lt;p&gt;This identifies the eBay marketplace that applies to this task. See &lt;a href&#x3D;\&quot;/api-docs/sell/feed/types/bas:MarketplaceIdEnum\&quot;&gt;MarketplaceIdEnum&lt;/a&gt;.&lt;/p&gt; (optional)
      *
      * @throws \InvalidArgumentException
@@ -349,9 +349,9 @@ class OrderTaskApi
      *
      * @param  string $task_id The ID of the task. This ID is generated when the task was created by the &lt;b&gt; createOrderTask&lt;/b&gt; method. (required)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \OpenAPI\EbaySellFeedApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \OpenAPI\Client\Model\OrderTask
+     * @return \OpenAPI\EbaySellFeedApi\Model\OrderTask
      */
     public function getOrderTask($task_id)
     {
@@ -364,9 +364,9 @@ class OrderTaskApi
      *
      * @param  string $task_id The ID of the task. This ID is generated when the task was created by the &lt;b&gt; createOrderTask&lt;/b&gt; method. (required)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \OpenAPI\EbaySellFeedApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \OpenAPI\Client\Model\OrderTask, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \OpenAPI\EbaySellFeedApi\Model\OrderTask, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOrderTaskWithHttpInfo($task_id)
     {
@@ -409,23 +409,23 @@ class OrderTaskApi
 
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\OrderTask' === '\SplFileObject') {
+                    if ('\OpenAPI\EbaySellFeedApi\Model\OrderTask' === '\SplFileObject') {
                         $content = $response->getBody(); //stream goes to serializer
                     } else {
                         $content = (string) $response->getBody();
-                        if ('\OpenAPI\Client\Model\OrderTask' !== 'string') {
+                        if ('\OpenAPI\EbaySellFeedApi\Model\OrderTask' !== 'string') {
                             $content = json_decode($content);
                         }
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\OrderTask', []),
+                        ObjectSerializer::deserialize($content, '\OpenAPI\EbaySellFeedApi\Model\OrderTask', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\OrderTask';
+            $returnType = '\OpenAPI\EbaySellFeedApi\Model\OrderTask';
             if ($returnType === '\SplFileObject') {
                 $content = $response->getBody(); //stream goes to serializer
             } else {
@@ -446,7 +446,7 @@ class OrderTaskApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\OrderTask',
+                        '\OpenAPI\EbaySellFeedApi\Model\OrderTask',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -484,7 +484,7 @@ class OrderTaskApi
      */
     public function getOrderTaskAsyncWithHttpInfo($task_id)
     {
-        $returnType = '\OpenAPI\Client\Model\OrderTask';
+        $returnType = '\OpenAPI\EbaySellFeedApi\Model\OrderTask';
         $request = $this->getOrderTaskRequest($task_id);
 
         return $this->client
@@ -630,9 +630,9 @@ class OrderTaskApi
      * @param  string $offset The number of order tasks to skip in the result set before returning the first order in the paginated response. &lt;p&gt;Combine &lt;strong&gt;offset&lt;/strong&gt; with the &lt;strong&gt;limit&lt;/strong&gt; query parameter to control the items returned in the response. For example, if you supply an &lt;strong&gt;offset&lt;/strong&gt; of &lt;code&gt;0&lt;/code&gt; and a &lt;strong&gt;limit&lt;/strong&gt; of &lt;code&gt;10&lt;/code&gt;, the first page of the response contains the first 10 items from the complete list of items retrieved by the call. If &lt;strong&gt;offset&lt;/strong&gt; is &lt;code&gt;10&lt;/code&gt; and &lt;strong&gt;limit&lt;/strong&gt; is &lt;code&gt;20&lt;/code&gt;, the first page of the response contains items 11-30 from the complete result set. If this query parameter is not set, the default value is used and the first page of records is returned.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Default: &lt;/b&gt;0 (optional)
      * @param  string $schedule_id The schedule ID associated with the order task. A schedule periodically generates a report for the feed type specified by the schedule template (see &lt;strong&gt;scheduleTemplateId&lt;/strong&gt; in &lt;strong&gt;createSchedule&lt;/strong&gt;). Do not use with the &lt;strong&gt;feed_type&lt;/strong&gt; parameter. Since schedules are based on feed types, you can specify a schedule (&lt;strong&gt;schedule_id&lt;/strong&gt;) that returns the needed &lt;strong&gt;feed_type&lt;/strong&gt;. (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \OpenAPI\EbaySellFeedApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \OpenAPI\Client\Model\OrderTaskCollection
+     * @return \OpenAPI\EbaySellFeedApi\Model\OrderTaskCollection
      */
     public function getOrderTasks($date_range = null, $feed_type = null, $limit = null, $look_back_days = null, $offset = null, $schedule_id = null)
     {
@@ -650,9 +650,9 @@ class OrderTaskApi
      * @param  string $offset The number of order tasks to skip in the result set before returning the first order in the paginated response. &lt;p&gt;Combine &lt;strong&gt;offset&lt;/strong&gt; with the &lt;strong&gt;limit&lt;/strong&gt; query parameter to control the items returned in the response. For example, if you supply an &lt;strong&gt;offset&lt;/strong&gt; of &lt;code&gt;0&lt;/code&gt; and a &lt;strong&gt;limit&lt;/strong&gt; of &lt;code&gt;10&lt;/code&gt;, the first page of the response contains the first 10 items from the complete list of items retrieved by the call. If &lt;strong&gt;offset&lt;/strong&gt; is &lt;code&gt;10&lt;/code&gt; and &lt;strong&gt;limit&lt;/strong&gt; is &lt;code&gt;20&lt;/code&gt;, the first page of the response contains items 11-30 from the complete result set. If this query parameter is not set, the default value is used and the first page of records is returned.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Default: &lt;/b&gt;0 (optional)
      * @param  string $schedule_id The schedule ID associated with the order task. A schedule periodically generates a report for the feed type specified by the schedule template (see &lt;strong&gt;scheduleTemplateId&lt;/strong&gt; in &lt;strong&gt;createSchedule&lt;/strong&gt;). Do not use with the &lt;strong&gt;feed_type&lt;/strong&gt; parameter. Since schedules are based on feed types, you can specify a schedule (&lt;strong&gt;schedule_id&lt;/strong&gt;) that returns the needed &lt;strong&gt;feed_type&lt;/strong&gt;. (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \OpenAPI\EbaySellFeedApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \OpenAPI\Client\Model\OrderTaskCollection, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \OpenAPI\EbaySellFeedApi\Model\OrderTaskCollection, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOrderTasksWithHttpInfo($date_range = null, $feed_type = null, $limit = null, $look_back_days = null, $offset = null, $schedule_id = null)
     {
@@ -695,23 +695,23 @@ class OrderTaskApi
 
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\OrderTaskCollection' === '\SplFileObject') {
+                    if ('\OpenAPI\EbaySellFeedApi\Model\OrderTaskCollection' === '\SplFileObject') {
                         $content = $response->getBody(); //stream goes to serializer
                     } else {
                         $content = (string) $response->getBody();
-                        if ('\OpenAPI\Client\Model\OrderTaskCollection' !== 'string') {
+                        if ('\OpenAPI\EbaySellFeedApi\Model\OrderTaskCollection' !== 'string') {
                             $content = json_decode($content);
                         }
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\OrderTaskCollection', []),
+                        ObjectSerializer::deserialize($content, '\OpenAPI\EbaySellFeedApi\Model\OrderTaskCollection', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\OrderTaskCollection';
+            $returnType = '\OpenAPI\EbaySellFeedApi\Model\OrderTaskCollection';
             if ($returnType === '\SplFileObject') {
                 $content = $response->getBody(); //stream goes to serializer
             } else {
@@ -732,7 +732,7 @@ class OrderTaskApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\OrderTaskCollection',
+                        '\OpenAPI\EbaySellFeedApi\Model\OrderTaskCollection',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -780,7 +780,7 @@ class OrderTaskApi
      */
     public function getOrderTasksAsyncWithHttpInfo($date_range = null, $feed_type = null, $limit = null, $look_back_days = null, $offset = null, $schedule_id = null)
     {
-        $returnType = '\OpenAPI\Client\Model\OrderTaskCollection';
+        $returnType = '\OpenAPI\EbaySellFeedApi\Model\OrderTaskCollection';
         $request = $this->getOrderTasksRequest($date_range, $feed_type, $limit, $look_back_days, $offset, $schedule_id);
 
         return $this->client
